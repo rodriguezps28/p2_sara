@@ -1,6 +1,6 @@
 void sara (float px,float py){
 
- //push(); 
+ push(); 
  translate(px,py);
   
  stroke(0);
@@ -34,5 +34,6 @@ void sara (float px,float py){
  //NARIZ
  arc(50,81,7,7,radians(0),radians(180));
  
- //pop();
+ pop();
  }
+
